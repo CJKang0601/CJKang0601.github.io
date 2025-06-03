@@ -21,6 +21,5 @@
     "gatsby",
     "gatsby-plugin",
     "markdown"
-  ],
-  "dependencies": {}
+  ]
 }

@@ -12,20 +12,21 @@ body {
 }
 
 .title {
-    font-size: 1.6rem;
+    font-size: 3rem;
     font-weight: normal;
     margin-bottom: 0.5rem;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 a {
-    color: #6db3f2;
+    color: #e6a756;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #8ac4f8;
+    color: #f0b86a;
 }
 
 a.important {

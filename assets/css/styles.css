@@ -35,6 +35,9 @@ body {
 .col-md-4 {
     padding-right: 3rem;
 }
+.col-md-8 {
+    padding-left: 3rem;
+}
 a {
     color: #6db3f2;
     text-decoration: none;

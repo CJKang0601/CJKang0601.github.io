@@ -3,21 +3,6 @@ layout: default
 title: Home
 ---
 
-<div class="profile-container">
-  <div class="profile-photo">
-    <img src="{{ site.baseurl }}/assets/images/portrait_v2.jpg" alt="Cheng-Jun Kang">
-  </div>
-  <div class="profile-info">
-    <h1>Cheng-Jun Kang</h1>
-    <p class="contact-links">
-      <a href="mailto:{{ site.email }}">Email</a> |
-      <a href="{{ site.baseurl }}/assets/files/Resume.pdf">CV</a> |
-      <a href="https://github.com/{{ site.github_username }}">GitHub</a> |
-      <a href="https://www.linkedin.com/in/cheng-jun-kang/">LinkedIn</a>
-    </p>
-  </div>
-</div>
-
 I am a Master's student at the [Institute of Data Science](https://ds.ncku.edu.tw/), [National Cheng Kung University (NCKU)](https://www.ncku.edu.tw/), advised by Prof. [Chih-Chung Hsu](https://cchsu.info/wordpress/). I am a member of the [Advanced Computer Vision Lab (ACVLAB)](https://sites.google.com/view/acvlab).
 
 My research focuses on computer vision, with particular interests in hyperspectral imaging, defect detection, and person re-identification.
@@ -29,8 +14,7 @@ When I'm not doing research, I enjoy watching films. Check out my [Letterboxd](h
 ## Research Interests
 
 - Computer Vision
-- Multimodal Machine Learning
-- Social Media Analysis
+- Multimodal Machine Learning 
 - Hyperspectral Imaging
 - Deep Learning
 

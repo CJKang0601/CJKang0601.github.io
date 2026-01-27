@@ -32,7 +32,9 @@ body {
     color: #f0b86a;
     text-decoration: underline;
 }
-
+.col-md-4 {
+    padding-right: 2rem;
+}
 a {
     color: #6db3f2;
     text-decoration: none;

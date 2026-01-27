@@ -1,0 +1,83 @@
+---
+---
+
+:root {
+    --background-color: black;
+    --text-color: rgb(245, 245, 247);
+    --link-color: rgb(255, 214, 10);
+}
+
+@font-face {
+    font-family: 'Basis Grotesque';
+    src: url('../fonts/BasisGrotesqueRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: "DM Mono", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    // letter-spacing: .03125em;
+    -webkit-font-smoothing: antialiased;
+    text-transform: lowercase;
+}
+
+.title {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.important {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+    color: var(--text-color);
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+.email {
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+
+    @media (max-width: 575px) {
+        padding: 0rem 1.5rem;
+    }
+
+    @media (min-width: 992px) {
+        max-width: 880px;
+    }
+}
+
+.img-fluid {
+    border-radius: 4px;
+}
+
+h1.four-o-four {
+    font-size: 7rem;
+    color: var(--link-color);
+    margin: 0rem;
+}
+
+p.four-o-four {
+    font-size: 2rem;
+    margin: 0rem;
+}

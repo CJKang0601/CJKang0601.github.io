@@ -14,77 +14,30 @@
 </head>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    {% include head.html %}
-    <style>
-      body {
-        font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
-        font-size: 16px;
-        line-height: 1.7;
-        color: #333;
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 2rem;
-      }
-      a {
-        color: #0066cc;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-      .profile-container {
-        display: flex;
-        gap: 2rem;
-        align-items: flex-start;
-        margin-bottom: 1.5rem;
-      }
-      .profile-photo {
-        flex-shrink: 0;
-      }
-      .profile-photo img {
-        width: 180px;
-        border-radius: 4px;
-      }
-      .profile-info h1 {
-        margin: 0 0 0.5rem 0;
-        font-size: 1.5rem;
-        font-weight: normal;
-      }
-      .profile-info p {
-        margin: 0.3rem 0;
-        font-size: 0.95rem;
-      }
-      h2 {
-        font-size: 1.2rem;
-        font-weight: bold;
-        margin-top: 2rem;
-        margin-bottom: 0.8rem;
-      }
-      h3 {
-        font-size: 1rem;
-        font-weight: bold;
-        margin-top: 1.5rem;
-        margin-bottom: 0.5rem;
-      }
-      ul {
-        padding-left: 1.2rem;
-      }
-      li {
-        margin-bottom: 0.5rem;
-      }
-      @media (max-width: 600px) {
-        .profile-container {
-          flex-direction: column;
-          align-items: center;
-          text-align: center;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      {{ content }}
-    </main>
-  </body>
+{% include head.html %}
+<body>
+    <div class="container">
+        <div class="row mb-md-4">
+            <div class="col-12 col-md-4 mb-md-0" style="margin-bottom: 2rem;">
+                <img src="{{ site.baseurl }}/assets/images/portrait.jpg" alt="portrait of Cheng-Jun" class="img-fluid">
+            </div>
+            <div class="d-none d-md-block col-md-8">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
+                <p class="title mb-3 mb-md-0">Cheng-Jun Kang</p>
+                <p>
+                    {{ site.email | replace: "@", "[at]" }}<br>
+                    <a class="important" href="{{ site.baseurl }}/assets/files/CV.pdf">CV</a>,
+                    <a class="important" href="https://github.com/{{ site.github_username }}">github</a>,
+                    <a class="important" href="https://www.linkedin.com/in/cheng-jun-kang/">linkedin</a>
+                </p>
+            </div>
+            <div class="col-12 col-md-8">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</body>
 </html>

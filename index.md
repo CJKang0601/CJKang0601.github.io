@@ -5,7 +5,7 @@ title: Home
 
 <div class="profile-container">
   <div class="profile-photo">
-    <img src="{{ site.baseurl }}/assets/images/portrait.jpg" alt="Cheng-Jun Kang">
+    <img src="{{ site.baseurl }}/assets/images/portrait_v2.jpg" alt="Cheng-Jun Kang">
   </div>
   <div class="profile-info">
     <h1>Cheng-Jun Kang</h1>
@@ -29,8 +29,9 @@ When I'm not doing research, I enjoy watching films. Check out my [Letterboxd](h
 ## Research Interests
 
 - Computer Vision
+- Multimodal Machine Learning
+- Social Media Analysis
 - Hyperspectral Imaging
-- Person Re-Identification
 - Deep Learning
 
 ## Publications

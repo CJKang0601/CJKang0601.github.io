@@ -1,8 +1,9 @@
 body {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
-    font-size: 16px;
-    line-height: 1.7;
-    color: #333;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #e0e0e0;
+    background-color: #1a1a1a;
     padding: 2rem 0;
 }
 
@@ -11,22 +12,24 @@ body {
 }
 
 .title {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: normal;
     margin-bottom: 0.5rem;
+    color: #ffffff;
 }
 
 a {
-    color: #0066cc;
+    color: #6db3f2;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #8ac4f8;
 }
 
 a.important {
-    color: #0066cc;
+    color: #6db3f2;
 }
 
 img.img-fluid {
@@ -35,17 +38,19 @@ img.img-fluid {
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: bold;
     margin-top: 1.8rem;
     margin-bottom: 0.8rem;
+    color: #ffffff;
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     margin-top: 1.2rem;
     margin-bottom: 0.5rem;
+    color: #ffffff;
 }
 
 ul {
@@ -53,9 +58,17 @@ ul {
 }
 
 li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.6rem;
 }
 
 p {
     margin-bottom: 1rem;
+}
+
+strong {
+    color: #ffffff;
+}
+
+em {
+    color: #c0c0c0;
 }

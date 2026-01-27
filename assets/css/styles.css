@@ -1,7 +1,7 @@
 body {
     font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-    font-size: 25px;
-    line-height: 1.0;
+    font-size: 18px;
+    line-height: 1.7;
     color: #e0e0e0;
     background-color: #1a1a1a;
     padding: 3rem 0;
@@ -12,35 +12,46 @@ body {
 }
 
 .title {
-    font-size: 3rem;
-    font-weight: normal;
-    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    font-weight: 600;
     color: #ffffff;
     text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.contact-info {
+    font-size: 0.95rem;
+    line-height: 1.8;
+}
+
+.contact-info a {
+    color: #e6a756;
+}
+
+.contact-info a:hover {
+    color: #f0b86a;
+    text-decoration: underline;
 }
 
 a {
-    color: #e6a756;
+    color: #6db3f2;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #f0b86a;
-}
-
-a.important {
-    color: #6db3f2;
+    color: #8ac4f8;
 }
 
 img.img-fluid {
     border-radius: 4px;
     max-width: 100%;
+    height: auto;
 }
 
 h2 {
     font-size: 1.4rem;
-    font-weight: bold;
+    font-weight: 700;
     margin-top: 1.8rem;
     margin-bottom: 0.8rem;
     color: #ffffff;
@@ -48,7 +59,7 @@ h2 {
 
 h3 {
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: 600;
     margin-top: 1.2rem;
     margin-bottom: 0.5rem;
     color: #ffffff;
@@ -68,8 +79,15 @@ p {
 
 strong {
     color: #ffffff;
+    font-weight: 600;
 }
 
 em {
     color: #c0c0c0;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 1.5rem;
+    }
 }

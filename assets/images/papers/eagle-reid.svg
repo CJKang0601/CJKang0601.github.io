@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">EAGLE-ReID thumbnail</title>
+  <desc id="desc">Aerial and ground-view person re-identification concept.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#12355b"/>
+      <stop offset="1" stop-color="#2f8f83"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#sky)"/>
+  <path d="M0 300 C120 250 200 330 330 276 C460 222 540 245 640 214 L640 400 L0 400 Z" fill="#0e1f2d" opacity=".9"/>
+  <path d="M95 92 L160 62 L226 92 L160 124 Z" fill="#e9f3ff" opacity=".9"/>
+  <path d="M144 124 L176 124 L170 183 L150 183 Z" fill="#e9f3ff" opacity=".8"/>
+  <circle cx="418" cy="218" r="22" fill="#f0b86a"/>
+  <path d="M418 244 L398 314 M418 244 L440 314 M406 270 L452 270" stroke="#f7e7ca" stroke-width="12" stroke-linecap="round"/>
+  <rect x="382" y="168" width="72" height="112" fill="none" stroke="#79b8ff" stroke-width="4" stroke-dasharray="12 8"/>
+  <path d="M184 150 C250 180 310 200 382 210" fill="none" stroke="#f0b86a" stroke-width="5" stroke-dasharray="10 10"/>
+  <text x="34" y="52" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700">EAGLE-ReID</text>
+</svg>

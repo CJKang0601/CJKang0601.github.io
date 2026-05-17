@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">Anchoring Trends thumbnail</title>
+  <desc id="desc">Clusters and anchor features for social media trend drift.</desc>
+  <rect width="640" height="400" fill="#172033"/>
+  <g opacity=".2" stroke="#dbeafe" stroke-width="2">
+    <path d="M40 310 C160 210 260 340 390 160 S560 110 620 70"/>
+    <path d="M40 250 C170 300 260 120 420 210 S540 310 620 180"/>
+  </g>
+  <g fill="#79b8ff">
+    <circle cx="124" cy="260" r="18"/>
+    <circle cx="178" cy="236" r="12"/>
+    <circle cx="205" cy="292" r="16"/>
+    <circle cx="426" cy="162" r="17"/>
+    <circle cx="476" cy="130" r="12"/>
+    <circle cx="512" cy="184" r="15"/>
+  </g>
+  <g fill="#f0b86a">
+    <circle cx="304" cy="210" r="30"/>
+    <path d="M304 152 L316 196 L362 198 L324 223 L337 268 L304 241 L271 268 L284 223 L246 198 L292 196 Z"/>
+  </g>
+  <g stroke="#f0b86a" stroke-width="4" stroke-dasharray="8 8" fill="none">
+    <path d="M304 210 L124 260"/>
+    <path d="M304 210 L426 162"/>
+    <path d="M304 210 L512 184"/>
+  </g>
+  <text x="34" y="54" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700">Anchoring Trends</text>
+</svg>

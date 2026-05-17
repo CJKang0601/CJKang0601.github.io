@@ -3,21 +3,24 @@
 {% include head.html %}
 <body>
     <div class="container">
+        {% include header.html %}
         <div class="row">
             <div class="col-12 col-md-4 mb-4 mb-md-0">
-                <img src="{{ site.baseurl }}/assets/images/portrait_v2.jpg" alt="portrait of Cheng-Jun" class="img-fluid mb-3">
+                <img src="{{ site.baseurl }}/assets/images/portrait_v2.jpg" alt="portrait of Cheng-Jun" class="img-fluid profile-photo mb-3">
                 <p class="title mb-2">Cheng-Jun Kang</p>
                 <p class="contact-info">
                     {{ site.email | replace: "@", "[at]" }}<br>
-                    <a class="important" href="{{ site.baseurl }}/assets/files/Resume.pdf">résumé</a>,
+                    <a class="important" href="{{ site.baseurl }}/cv/">CV</a>,
+                    <a class="important" href="{{ site.baseurl }}/assets/files/Resume.pdf">resume</a>,
                     <a class="important" href="https://github.com/{{ site.github_username }}">github</a>,
                     <a class="important" href="https://www.linkedin.com/in/cheng-jun-kang/">linkedin</a>
                 </p>
             </div>
-            <div class="col-12 col-md-8">
+            <main class="col-12 col-md-8">
                 {{ content }}
-            </div>
+            </main>
         </div>
     </div>
+    <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
 </body>
 </html>

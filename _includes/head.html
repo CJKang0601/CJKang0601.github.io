@@ -16,4 +16,11 @@
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon-32x32.png">
+    <script>
+        (function () {
+            var storedTheme = localStorage.getItem("theme");
+            var prefersLight = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches;
+            document.documentElement.dataset.theme = storedTheme || (prefersLight ? "light" : "dark");
+        })();
+    </script>
 </head>

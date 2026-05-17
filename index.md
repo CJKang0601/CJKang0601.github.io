@@ -18,21 +18,24 @@ When I'm not doing research, I enjoy watching films. Check out my [Letterboxd](h
 - Hyperspectral Imaging
 - Deep Learning
 
-## Publications
+## Selected Publications
 
-### Conference Papers
+<div class="mini-publications">
+  <a class="mini-paper" href="{{ site.baseurl }}/publications/#eagle-reid">
+    <img src="{{ site.baseurl }}/assets/images/papers/eagle-reid.svg" alt="EAGLE-ReID paper thumbnail">
+    <span>EAGLE-ReID</span>
+  </a>
+  <a class="mini-paper" href="{{ site.baseurl }}/publications/#anchoring-trends">
+    <img src="{{ site.baseurl }}/assets/images/papers/anchoring-trends.svg" alt="Anchoring Trends paper thumbnail">
+    <span>Anchoring Trends</span>
+  </a>
+  <a class="mini-paper" href="{{ site.baseurl }}/publications/#fhb">
+    <img src="{{ site.baseurl }}/assets/images/papers/fhb.svg" alt="FHB hyperspectral detection paper thumbnail">
+    <span>FHB Detection</span>
+  </a>
+</div>
 
-- **Cheng-Jun Kang**, Jin-Hui Jiang, Yu-Fan Lin, Chih-Chung Hsu, "EAGLE-ReID: Strategic Alignment and Delta Consistency for Extreme Far-Distance Aerial-Ground Re-Identification". *WACV Workshop on VReID-XFD*, 2026. (Accepted)
-
-- Chia-Ming Lee, Bo-Cheng Qiu, **Cheng-Jun Kang**, Yi-Hsuan Wu, Jun-Lin Chen, Yu-Fan Lin, Yi-Shiuan Chou, Chih-Chung Hsu, "Anchoring Trends: Mitigating Social Media Popularity Prediction Drift via Feature Clustering and Expansion". *ACM MM*, 2025.
-
-- Chih-Chung Hsu, Chia-Ming Lee, Po-Tsun Yu, **Cheng-Jun Kang**, Chun-Hung Sun, Kuang-Ming Wu, "Progressive Alignment with VLM-LLM Feature to Augment Defect Classification for the ASE Dataset". *IEEE ICCE*, 2025.
-
-### Preprints
-
-- Chia-Ming Lee, **Cheng-Jun Kang**, Ching-Heng Cheng, Yu-Fan Lin, Yi-Shiuan Chou, Chih-Chung Hsu, Fu-En Yang, Yu-Chiang Frank Wang, "AuroraHSI: Degradation-agnostic Hyperspectral Image Fusion Transformer via Mask-guided Information Sharing and Compensation". 2025.
-
-- Yu-Fan Lin, Ching-Heng Cheng, Bo-Chen Qiu, **Cheng-Jun Kang**, Chia-Ming Lee, Chih-Chung Hsu, "Self-supervised Fusarium Head Blight Detection with Hyperspectral Image and Feature Mining". *arXiv:2409.00395*, 2024.
+[View all publications]({{ site.baseurl }}/publications/)
 
 ## Honors & Awards
 

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">AuroraHSI thumbnail</title>
+  <desc id="desc">Hyperspectral image fusion with spectral bands.</desc>
+  <rect width="640" height="400" fill="#141821"/>
+  <g transform="translate(120 86)">
+    <rect x="0" y="0" width="300" height="190" fill="#263244" stroke="#dbeafe" stroke-width="3"/>
+    <rect x="22" y="22" width="72" height="146" fill="#79b8ff" opacity=".8"/>
+    <rect x="114" y="22" width="72" height="146" fill="#7dd3a8" opacity=".8"/>
+    <rect x="206" y="22" width="72" height="146" fill="#f0b86a" opacity=".8"/>
+    <path d="M22 142 C72 72 132 156 186 92 S250 78 278 122" fill="none" stroke="#ffffff" stroke-width="6"/>
+  </g>
+  <g fill="none" stroke="#f0b86a" stroke-width="3" opacity=".75">
+    <path d="M126 318 C192 250 260 340 332 276 S470 252 538 190"/>
+    <path d="M102 292 C178 218 272 306 350 240 S486 210 560 146"/>
+  </g>
+  <text x="34" y="54" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700">AuroraHSI</text>
+</svg>

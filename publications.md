@@ -8,7 +8,6 @@ permalink: /publications/
 
 <div class="paper-list">
   <article class="paper-card" id="eagle-reid">
-    <img class="paper-thumb" src="{{ site.baseurl }}/assets/images/papers/eagle-reid.svg" alt="EAGLE-ReID thumbnail">
     <div class="paper-body">
       <div class="paper-venue">WACV Workshop 2026</div>
       <h3>EAGLE-ReID: Strategic Alignment and Delta Consistency for Extreme Far-Distance Aerial-Ground Re-Identification</h3>
@@ -22,7 +21,6 @@ permalink: /publications/
   </article>
 
   <article class="paper-card" id="anchoring-trends">
-    <img class="paper-thumb" src="{{ site.baseurl }}/assets/images/papers/anchoring-trends.svg" alt="Anchoring Trends thumbnail">
     <div class="paper-body">
       <div class="paper-venue">ACM MM 2025</div>
       <h3>Anchoring Trends: Mitigating Social Media Popularity Prediction Drift via Feature Clustering and Expansion</h3>
@@ -36,7 +34,6 @@ permalink: /publications/
   </article>
 
   <article class="paper-card" id="progressive-alignment">
-    <img class="paper-thumb" src="{{ site.baseurl }}/assets/images/papers/progressive-alignment.svg" alt="Progressive Alignment thumbnail">
     <div class="paper-body">
       <div class="paper-venue">IEEE ICCE 2025</div>
       <h3>Progressive Alignment with VLM-LLM Feature to Augment Defect Classification for the ASE Dataset</h3>
@@ -50,7 +47,6 @@ permalink: /publications/
   </article>
 
   <article class="paper-card" id="aurorahsi">
-    <img class="paper-thumb" src="{{ site.baseurl }}/assets/images/papers/aurorahsi.svg" alt="AuroraHSI thumbnail">
     <div class="paper-body">
       <div class="paper-venue">Preprint 2025</div>
       <h3>AuroraHSI: Degradation-agnostic Hyperspectral Image Fusion Transformer via Mask-guided Information Sharing and Compensation</h3>
@@ -60,7 +56,6 @@ permalink: /publications/
   </article>
 
   <article class="paper-card" id="fhb">
-    <img class="paper-thumb" src="{{ site.baseurl }}/assets/images/papers/fhb.svg" alt="FHB Detection thumbnail">
     <div class="paper-body">
       <div class="paper-venue">arXiv 2024</div>
       <h3>Self-supervised Fusarium Head Blight Detection with Hyperspectral Image and Feature Mining</h3>

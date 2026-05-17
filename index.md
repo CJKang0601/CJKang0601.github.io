@@ -20,20 +20,9 @@ When I'm not doing research, I enjoy watching films. Check out my [Letterboxd](h
 
 ## Selected Publications
 
-<div class="mini-publications">
-  <a class="mini-paper" href="{{ site.baseurl }}/publications/#eagle-reid">
-    <img src="{{ site.baseurl }}/assets/images/papers/eagle-reid.svg" alt="EAGLE-ReID paper thumbnail">
-    <span>EAGLE-ReID</span>
-  </a>
-  <a class="mini-paper" href="{{ site.baseurl }}/publications/#anchoring-trends">
-    <img src="{{ site.baseurl }}/assets/images/papers/anchoring-trends.svg" alt="Anchoring Trends paper thumbnail">
-    <span>Anchoring Trends</span>
-  </a>
-  <a class="mini-paper" href="{{ site.baseurl }}/publications/#fhb">
-    <img src="{{ site.baseurl }}/assets/images/papers/fhb.svg" alt="FHB hyperspectral detection paper thumbnail">
-    <span>FHB Detection</span>
-  </a>
-</div>
+- **EAGLE-ReID: Strategic Alignment and Delta Consistency for Extreme Far-Distance Aerial-Ground Re-Identification**. *WACV Workshop*, 2026.
+- **Anchoring Trends: Mitigating Social Media Popularity Prediction Drift via Feature Clustering and Expansion**. *ACM MM*, 2025.
+- **Self-supervised Fusarium Head Blight Detection with Hyperspectral Image and Feature Mining**. *arXiv:2409.00395*, 2024.
 
 [View all publications]({{ site.baseurl }}/publications/)
 

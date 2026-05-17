@@ -99,25 +99,9 @@ body {
     width: 1rem;
 }
 
-html[data-theme-setting="system"] .theme-glyph-system,
-html[data-theme-setting="light"] .theme-glyph-light,
-html[data-theme-setting="dark"] .theme-glyph-dark {
+html[data-theme="dark"] .theme-glyph-light,
+html[data-theme="light"] .theme-glyph-dark {
     display: block;
-}
-
-.theme-glyph-system {
-    border: 2px solid var(--muted);
-    border-radius: 3px;
-}
-
-.theme-glyph-system::after {
-    background: var(--muted);
-    bottom: -5px;
-    content: "";
-    height: 2px;
-    left: 2px;
-    position: absolute;
-    width: 10px;
 }
 
 .theme-glyph-light {

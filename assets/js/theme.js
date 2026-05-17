@@ -1,45 +1,29 @@
 (function () {
-    function getStoredSetting() {
-        var setting = localStorage.getItem("theme");
-        if (setting !== "system" && setting !== "light" && setting !== "dark") {
-            setting = "system";
+    function getStoredTheme() {
+        var theme = localStorage.getItem("theme");
+        if (theme !== "light" && theme !== "dark") {
+            theme = "dark";
         }
-        return setting;
+        return theme;
     }
 
-    function getComputedTheme(setting) {
-        if (setting === "system") {
-            var media = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)");
-            return media && media.matches ? "dark" : "light";
-        }
-        return setting;
-    }
-
-    function applyTheme(setting) {
-        var theme = getComputedTheme(setting);
-        document.documentElement.setAttribute("data-theme-setting", setting);
+    function applyTheme(theme) {
         document.documentElement.setAttribute("data-theme", theme);
     }
 
     window.initTheme = function () {
-        applyTheme(getStoredSetting());
+        applyTheme(getStoredTheme());
 
         document.addEventListener("DOMContentLoaded", function () {
             var toggle = document.getElementById("theme-toggle");
             if (!toggle) return;
 
             toggle.addEventListener("click", function () {
-                var setting = getStoredSetting();
-                var next = setting === "system" ? "light" : setting === "light" ? "dark" : "system";
+                var theme = getStoredTheme();
+                var next = theme === "light" ? "dark" : "light";
                 localStorage.setItem("theme", next);
                 applyTheme(next);
             });
         });
-
-        if (window.matchMedia) {
-            window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () {
-                applyTheme(getStoredSetting());
-            });
-        }
     };
 })();

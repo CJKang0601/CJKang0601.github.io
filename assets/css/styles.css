@@ -11,7 +11,7 @@
     --shadow: 0 18px 45px rgba(0, 0, 0, 0.24);
 }
 
-:root[data-theme="light"] {
+html[data-theme="light"] {
     --bg: #f7f8fb;
     --surface: #ffffff;
     --surface-2: #eef2f7;
@@ -85,10 +85,58 @@ body {
 .theme-toggle {
     align-items: center;
     background: var(--surface);
+    cursor: pointer;
     display: inline-flex;
     height: 2.1rem;
     justify-content: center;
     width: 2.1rem;
+}
+
+.theme-glyph {
+    display: none;
+    height: 1rem;
+    position: relative;
+    width: 1rem;
+}
+
+html[data-theme-setting="system"] .theme-glyph-system,
+html[data-theme-setting="light"] .theme-glyph-light,
+html[data-theme-setting="dark"] .theme-glyph-dark {
+    display: block;
+}
+
+.theme-glyph-system {
+    border: 2px solid var(--muted);
+    border-radius: 3px;
+}
+
+.theme-glyph-system::after {
+    background: var(--muted);
+    bottom: -5px;
+    content: "";
+    height: 2px;
+    left: 2px;
+    position: absolute;
+    width: 10px;
+}
+
+.theme-glyph-light {
+    background: var(--accent-2);
+    border-radius: 999px;
+    box-shadow:
+        0 -7px 0 -4px var(--accent-2),
+        0 7px 0 -4px var(--accent-2),
+        7px 0 0 -4px var(--accent-2),
+        -7px 0 0 -4px var(--accent-2),
+        5px 5px 0 -4px var(--accent-2),
+        -5px -5px 0 -4px var(--accent-2),
+        5px -5px 0 -4px var(--accent-2),
+        -5px 5px 0 -4px var(--accent-2);
+}
+
+.theme-glyph-dark {
+    border-radius: 999px;
+    box-shadow: inset -5px 0 0 0 var(--accent);
 }
 
 .title {

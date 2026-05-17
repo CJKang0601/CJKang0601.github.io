@@ -3,7 +3,9 @@
     <a href="{{ site.baseurl }}/" {% if page.url == "/" %}class="active"{% endif %}>about</a>
     <a href="{{ site.baseurl }}/publications/" {% if page.url contains "/publications" %}class="active"{% endif %}>publications</a>
   </nav>
-  <button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">
-    <span class="theme-icon" aria-hidden="true">D</span>
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Change theme" title="Change theme">
+    <span class="theme-glyph theme-glyph-system" aria-hidden="true"></span>
+    <span class="theme-glyph theme-glyph-light" aria-hidden="true"></span>
+    <span class="theme-glyph theme-glyph-dark" aria-hidden="true"></span>
   </button>
 </header>

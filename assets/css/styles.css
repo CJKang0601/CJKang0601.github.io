@@ -256,6 +256,15 @@ em {
     padding: 0.45rem 0.65rem;
 }
 
+.project-shot {
+    aspect-ratio: 2 / 1;
+    border-bottom: 1px solid var(--line);
+    display: block;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+}
+
 .cv-frame {
     background: var(--surface);
     border: 1px solid var(--line);
